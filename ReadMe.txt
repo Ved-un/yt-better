@@ -1,3 +1,24 @@
-I made this bash script to fix the few issues I have with yt-dlp. 
+=== yt-better === 
+For unix and unix like computers ONLY!
 
-Just clone the repo and run "chmod +x install.sh && chmod +x yt-better" to make the scripts runnable and then run "sudo ./install.sh" and it should install and use it like normal. 
+yt-better is a set of scripts that simplifies many uses of yt-dlp.
+
+=== How to install ===
+
+Clone the repo:
+
+git clone https://github.com/CheemsBread505/yt-better.git && cd yt-better 
+
+Make the install script runnable: 
+
+chmod +x install.sh
+
+Run the script: 
+
+sudo ./install.sh 
+
+=== How to uninstall ===
+
+chmod uninstall.sh 
+
+sudo ./uninstall.sh
