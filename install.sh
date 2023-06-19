@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define the source and destination paths
-source_file="yt"
-source_file_music="yt-music"
+source_file="scripts/yt"
+source_file_music="scripts/yt-music"
 destination_dir="/usr/bin"
 
 # chmod
@@ -25,7 +25,7 @@ else
     echo "File '$source_file' not found."
 fi
 
-# yt music
+## yt music
 # Check if the file exists
 if [ -f "$source_file_music" ]; then
     # Move the file to the destination directory

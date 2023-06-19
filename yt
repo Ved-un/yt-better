@@ -1,3 +1,0 @@
-#!/bin/bash
-
-yt-dlp -S ext -o "%(title)s.%(ext)s" "$1"
