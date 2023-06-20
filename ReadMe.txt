@@ -1,6 +1,7 @@
 === yt-better ===
  
 For unix and unix like computers ONLY!
+This script is coded in shell script, it can not be rain on Windows computers.
 
 yt-better is a set of scripts that simplifies many uses of yt-dlp.
 
